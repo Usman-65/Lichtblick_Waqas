@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lichtblick-Betreuung – Zuverlässige Alltagshilfe in NRW. Anerkannter Anbieter nach §45a SGB XI. Abrechnung direkt über die Pflegekasse.">
+<title>Lichtblick-Betreuung – Alltagshilfe in NRW</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+
+<!-- ══ NAV ══ -->
+<nav aria-label="Hauptnavigation">
+  <div class="nav-top">
+    <a href="https://www.google.com/search?q=Lichtblick+Betreuung+Senden" target="_blank" rel="noopener noreferrer" class="nav-top-item" aria-label="Lichtblick Betreuung bei Google suchen">
+      <svg width="14" height="14" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.2l6.7-6.7C35.7 2.5 30.2 0 24 0 14.6 0 6.6 5.4 2.6 13.3l7.8 6C12.2 13.2 17.6 9.5 24 9.5z"/><path fill="#fff" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17z"/><path fill="#FBBC05" d="M10.4 28.7A14.6 14.6 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.8-6A23.9 23.9 0 0 0 0 24c0 3.9.9 7.5 2.6 10.7l7.8-6z"/><path fill="#34A853" d="M24 48c6.2 0 11.4-2 15.2-5.5l-7.5-5.8c-2 1.4-4.6 2.2-7.7 2.2-6.4 0-11.8-3.7-13.6-9.2l-7.8 6C6.6 42.6 14.6 48 24 48z"/></svg>
+      <span style="color:#FBBC05">★★★★★</span> <strong>5,0</strong> Google
+    </a>
+    <div class="nav-top-divider"></div>
+    <div class="nav-top-item">🏅 §45a SGB XI anerkannt</div>
+    <div class="nav-top-divider"></div>
+    <div class="nav-top-item">📍 NRW · Münsterland</div>
+    <div class="nav-top-divider"></div>
+    <a href="tel:+491791051725" class="nav-top-item">📞 0179 1051725</a>
+  </div>
+  <div class="nav-main">
+    <a class="logo" href="#page-home" onclick="showPage('home')" aria-label="Lichtblick Betreuung – Startseite">
+      <svg class="logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Sun rays -->
+        <line x1="24" y1="1" x2="24" y2="6" stroke="#E8A020" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="36" y1="4.5" x2="33.5" y2="8.5" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="44" y1="13" x2="40" y2="15" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="12" y1="4.5" x2="14.5" y2="8.5" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="4" y1="13" x2="8" y2="15" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <!-- Sun arc -->
+        <path d="M7 24 A17 17 0 0 1 41 24" stroke="#E8A020" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+        <!-- Hand (caring cradle) -->
+        <path d="M9 34 Q24 44 39 34" stroke="#2E7D6B" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <!-- Helper (larger, left, dark blue) -->
+        <circle cx="19" cy="23" r="4" fill="#2C3E6B"/>
+        <path d="M19 27 L19 36" stroke="#2C3E6B" stroke-width="3" stroke-linecap="round"/>
+        <path d="M19 30 L26 28" stroke="#2C3E6B" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Helped person (smaller, right, teal) -->
+        <circle cx="30" cy="24" r="3.2" fill="#2E7D6B"/>
+        <path d="M30 27.2 L30 35" stroke="#2E7D6B" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Walking stick -->
+        <path d="M32 29 L34.5 36" stroke="#2E7D6B" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <div class="logo-text-wrap">
+        <div class="logo-name"><span class="licht">Licht</span><span class="blick">blick</span></div>
+        <span class="logo-sub">Betreuung · NRW</span>
+      </div>
+    </a>
+    <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Menü öffnen" data-mobile-toggle>☰</button>
+    <ul class="nav-links" id="main-menu">
+      <li><a href="#leistungen" onclick="showPage('home');scrollSec('#leistungen')" id="nl-leist">Leistungen</a></li>
+      <li><a href="#foerderung" onclick="showPage('home');scrollSec('#foerderung')">Förderung</a></li>
+      <li><a href="#bewertungen" onclick="showPage('home');scrollSec('#bewertungen')">Bewertungen</a></li>
+      <li><a href="#page-karriere" onclick="showPage('karriere')" id="nl-karriere">Karriere</a></li>
+      <li><a href="#kontakt" onclick="showPage('home');scrollSec('#kontakt')">Kontakt</a></li>
+    </ul>
+    <a href="tel:+491791051725" class="nav-cta">Jetzt anrufen</a>
+  </div>
+</nav>
+
+<!-- ════════════════════════════════ HOME ═══════════════════════════════ -->
+<main id="main-content">
+<div id="page-home" class="page active">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge">✓ Anerkannter Anbieter nach §45a SGB XI</div>
+      <h1>Verlässliche Unterstützung,<br>direkt bei Ihnen <em>zu Hause.</em></h1>
+      <p class="hero-sub">Wir sind Ihre persönliche Alltagshilfe in NRW — einfühlsam, zuverlässig und in vielen Fällen vollständig über die Pflegekasse finanziert.</p>
+      <div class="hero-actions">
+        <a href="#kontakt" class="btn-main" onclick="scrollSec('#kontakt');return false">Kostenlos anfragen</a>
+        <a href="#leistungen" class="btn-sec" onclick="scrollSec('#leistungen');return false">Unsere Leistungen →</a>
+      </div>
+      <div class="hero-trust">
+        <div class="hero-trust-item"><span class="dot"></span>Direkte Abrechnung Pflegekasse</div>
+        <div class="hero-trust-item"><span class="dot"></span>Oft 0 € Eigenanteil</div>
+        <div class="hero-trust-item"><span class="dot"></span>Start innerhalb 1 Woche</div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-accent">Direkt über Pflegekasse</div>
+      <h3>Oft komplett kostenfrei</h3>
+      <p class="hero-card-sub">Der Entlastungsbetrag von 131 € monatlich deckt unsere Leistungen in vielen Fällen vollständig ab.</p>
+      <ul class="info-rows">
+        <li class="info-row">
+          <div class="info-row-icon">💳</div>
+          <div class="info-row-text"><strong>Direkte Kassenabrechnung</strong><span>Kein Vorleistungsaufwand für Sie</span></div>
+        </li>
+        <li class="info-row">
+          <div class="info-row-icon">📋</div>
+          <div class="info-row-text"><strong>Ab Pflegegrad 1 berechtigt</strong><span>Wir prüfen Ihren Anspruch kostenlos</span></div>
+        </li>
+        <li class="info-row">
+          <div class="info-row-icon">⏱️</div>
+          <div class="info-row-text"><strong>Start innerhalb einer Woche</strong><span>Kein langer Vorlauf nötig</span></div>
+        </li>
+      </ul>
+      <div class="card-divider"></div>
+      <div class="card-contact">
+        <a href="tel:+491791051725">📞 0179 1051725</a>
+        <a href="mailto:info@lichtblickbetreuung.de">✉ info@lichtblickbetreuung.de</a>
+        <a href="https://wa.me/491791051725" target="_blank" rel="noopener noreferrer">💬 WhatsApp schreiben</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEISTUNGEN -->
+<section class="leistungen" id="leistungen">
+  <div class="leistungen-inner">
+    <div class="section-head">
+      <div class="section-label">Was wir tun</div>
+      <h2 class="section-title">Unsere Unterstützung</h2>
+      <p class="section-body">Wir helfen bei allem, was Sie für ein selbstbestimmtes Leben zu Hause brauchen — mit großem Herzen und auf Ihre Bedürfnisse abgestimmt.</p>
+    </div>
+    <div class="leist-grid">
+      <div class="leist-item">
+        <div class="leist-item-icon">🛒</div>
+        <div class="leist-item-title">Einkauf &amp; Erledigungen</div>
+        <p class="leist-item-text">Einkaufsservice, Arztbesuche, Botengänge — wir erledigen das für Sie.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">🏠</div>
+        <div class="leist-item-title">Haushaltshilfe</div>
+        <p class="leist-item-text">Reinigung, Wäsche, Kochen — hauswirtschaftliche Hilfe im Alltag.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">🤝</div>
+        <div class="leist-item-title">Gesellschaft &amp; Freizeit</div>
+        <p class="leist-item-text">Spazieren gehen, gemeinsame Unternehmungen, Gespräche — Lebensqualität steigern.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">🚗</div>
+        <div class="leist-item-title">Begleitung &amp; Transport</div>
+        <p class="leist-item-text">Arzt- und Behördentermine, Veranstaltungen — sicher hin und zurück.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">👨‍👩‍👧</div>
+        <div class="leist-item-title">Angehörige entlasten</div>
+        <p class="leist-item-text">Pflegende Familien brauchen Pausen. Wir springen verlässlich ein.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">🍳</div>
+        <div class="leist-item-title">Gemeinsam kochen</div>
+        <p class="leist-item-text">Kochen und backen — zusammen Spaß haben und gut essen.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">🧠</div>
+        <div class="leist-item-title">Demenzbetreuung</div>
+        <p class="leist-item-text">Einfühlsame Begleitung für Menschen mit Demenz und ihre Familien.</p>
+      </div>
+      <div class="leist-item">
+        <div class="leist-item-icon">📋</div>
+        <div class="leist-item-title">Beratung &amp; Antragshilfe</div>
+        <p class="leist-item-text">Kostenlose Beratung zu Pflegegrad, Förderung und Abrechnung.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ÜBER UNS -->
+<section class="ueber" id="ueber">
+  <div class="ueber-inner">
+    <div class="ueber-visual">
+      <div class="ueber-img-box">
+        <p class="ueber-quote">„Der Wunsch, möglichst lange in den vertrauten eigenen Wänden wohnen zu können, verbindet die meisten Menschen. Genau hier setzen wir an."</p>
+        <div class="ueber-stats">
+          <div class="ueber-stat"><div class="ueber-stat-num">131€</div><div class="ueber-stat-label">Entlastungsbetrag monatlich</div></div>
+          <div class="ueber-stat"><div class="ueber-stat-num">§45a</div><div class="ueber-stat-label">SGB XI anerkannt</div></div>
+          <div class="ueber-stat"><div class="ueber-stat-num">NRW</div><div class="ueber-stat-label">Münsterland &amp; Umgebung</div></div>
+          <div class="ueber-stat"><div class="ueber-stat-num">5★</div><div class="ueber-stat-label">Google Bewertung</div></div>
+        </div>
+      </div>
+      <div class="ueber-badge">
+        <div class="ueber-badge-num">100%</div>
+        <div class="ueber-badge-text">Herz dabei</div>
+      </div>
+    </div>
+    <div class="ueber-text">
+      <div class="section-label">Über uns</div>
+      <h2>Wir kommen aus der Pflege.<br><em>Von Herzen.</em></h2>
+      <p>Lichtblick-Betreuung ist ein anerkannter Anbieter von Betreuungsleistungen nach §45a SGB XI in NRW. Wir wissen aus täglicher Erfahrung, was pflegebedürftige Menschen und ihre Familien wirklich brauchen.</p>
+      <p>Unsere Alltagshelferinnen und Alltagshelfer leben und arbeiten in Ihrer Nähe — im Münsterland und ganz NRW. Verlässlichkeit, Empathie und ein offenes Ohr: das sind unsere wichtigsten Qualitäten.</p>
+      <p>Ein erstes persönliches und kostenfreies Beratungsgespräch gehört bei uns selbstverständlich dazu.</p>
+      <a href="#kontakt" class="btn-main" onclick="scrollSec('#kontakt');return false" style="margin-top:.5rem">Jetzt unverbindlich anfragen</a>
+    </div>
+  </div>
+</section>
+
+<!-- FÖRDERUNG -->
+<section class="foerderung" id="foerderung">
+  <div class="foerderung-inner">
+    <div class="section-head">
+      <div class="section-label">Pflegekasse &amp; Förderung</div>
+      <h2 class="section-title">Die Leistungen, die wir für Sie abrechnen</h2>
+      <p class="section-body">Als eingetragener und anerkannter Anbieter rechnen wir direkt mit Ihrer Kranken- und Pflegekasse ab — Sie zahlen oft nichts.</p>
+    </div>
+    <div class="foerder-grid">
+      <div class="foerder-card">
+        <div class="foerder-card-title">Entlastungsleistungen <span class="tag">ab PG 1</span></div>
+        <div class="foerder-amount">131 €</div>
+        <div class="foerder-amount-sub">monatlich nach § 45b SGB XI</div>
+        <p class="foerder-text">Ab Pflegegrad 1. Kein Antrag nötig — Sie können jederzeit und sofort starten. Nicht verbrauchte Beträge können grundsätzlich bis zum Ende des folgenden Kalenderhalbjahres genutzt werden.</p>
+      </div>
+      <div class="foerder-card">
+        <div class="foerder-card-title">Gemeinsamer Jahresbetrag <span class="tag">PG 2–5</span></div>
+        <div class="foerder-amount">3.539 €</div>
+        <div class="foerder-amount-sub">jährlich nach § 42a SGB XI</div>
+        <p class="foerder-text">Für Verhinderungs- und Kurzzeitpflege bei Pflegegrad 2–5 und bei Vorliegen der jeweiligen Voraussetzungen. Wir helfen Ihnen gerne bei der Orientierung.</p>
+      </div>
+      <div class="foerder-card">
+        <div class="foerder-card-title">Umwandlung Pflegesachleistungen <span class="tag">Individuell</span></div>
+        <div class="foerder-amount">40 %</div>
+        <div class="foerder-amount-sub">der Pflegesachleistungen nutzbar</div>
+        <p class="foerder-text">Ab Pflegegrad 2 können bis zu 40 % nicht genutzter ambulanter Pflegesachleistungen für anerkannte Angebote zur Unterstützung im Alltag eingesetzt werden.</p>
+      </div>
+      <div class="foerder-card">
+        <div class="foerder-card-title">Haushaltshilfe bei Krankheit <span class="tag">§ 38 SGB V</span></div>
+        <div class="foerder-amount">Ohne PG</div>
+        <div class="foerder-amount-sub">unabhängig vom Pflegegrad</div>
+        <p class="foerder-text">Bei schwerer Krankheit, nach einem Krankenhausaufenthalt oder einer ambulanten Operation kann unter bestimmten Voraussetzungen Anspruch auf Haushaltshilfe bestehen.</p>
+      </div>
+      <div class="foerder-highlight">
+        <div class="fh-left">
+          <h3>Beispiel: Was Sie wirklich zahlen</h3>
+          <p>Wenn anerkannte Leistungen im Umfang des monatlichen Entlastungsbetrags genutzt werden, kann die Erstattung durch die Pflegekasse den kompletten Betrag abdecken.</p>
+        </div>
+        <div class="fh-calc">
+          <div class="fh-row"><span class="lbl">Anerkannte Leistungen im Monat</span><span class="val">131 €</span></div>
+          <div class="fh-row"><span class="lbl">− Entlastungsbetrag § 45b</span><span class="val minus">−131 €</span></div>
+          <div class="fh-row total"><span class="lbl">Ihr Eigenanteil</span><span class="val">0 €</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BEWERTUNGEN -->
+<section class="bewertungen" id="bewertungen">
+  <div class="bewertungen-inner">
+    <div class="section-head">
+      <div class="section-label">Was unsere Kunden sagen</div>
+      <h2 class="section-title">Vertrauen, das sich in Worten zeigt</h2>
+      <div class="google-strip">
+        <div class="google-pill">
+          <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.2l6.7-6.7C35.7 2.5 30.2 0 24 0 14.6 0 6.6 5.4 2.6 13.3l7.8 6C12.2 13.2 17.6 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17z"/><path fill="#FBBC05" d="M10.4 28.7A14.6 14.6 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.8-6A23.9 23.9 0 0 0 0 24c0 3.9.9 7.5 2.6 10.7l7.8-6z"/><path fill="#34A853" d="M24 48c6.2 0 11.4-2 15.2-5.5l-7.5-5.8c-2 1.4-4.6 2.2-7.7 2.2-6.4 0-11.8-3.7-13.6-9.2l-7.8 6C6.6 42.6 14.6 48 24 48z"/></svg>
+          <div class="g-text"><strong>5,0</strong> von 5 Sternen</div>
+          <div class="g-stars">★★★★★</div>
+          <div class="g-text">Google Bewertungen</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section class="kontakt" id="kontakt">
+  <div class="kontakt-inner">
+    <div>
+      <h2>Fragen? Wir antworten <em>gerne.</em></h2>
+      <p>Rufen Sie uns an, schreiben Sie uns oder nutzen Sie das Formular. Wir melden uns innerhalb von 24 Stunden — meist noch am selben Tag.</p>
+      <div class="contact-channels">
+        <a href="tel:+491791051725" class="contact-ch"><div class="contact-ch-icon">📞</div><div><div class="contact-ch-label">Telefon</div><div class="contact-ch-value">0179 1051725</div></div></a>
+        <a href="https://wa.me/491791051725" target="_blank" rel="noopener noreferrer" class="contact-ch"><div class="contact-ch-icon">💬</div><div><div class="contact-ch-label">WhatsApp</div><div class="contact-ch-value">Nachricht schreiben</div></div></a>
+        <a href="mailto:info@lichtblickbetreuung.de" class="contact-ch"><div class="contact-ch-icon">✉️</div><div><div class="contact-ch-label">E-Mail</div><div class="contact-ch-value">info@lichtblickbetreuung.de</div></div></a>
+      </div>
+    </div>
+    <div class="kontakt-form">
+      <h3>Direkt anfragen</h3>
+      <p class="form-sub">Kein Druck, kein Auftrag — wir hören erst zu.</p>
+      <form action="mailto:info@lichtblickbetreuung.de" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div class="form-group"><label for="kontakt-vorname">Vorname</label><input id="kontakt-vorname" type="text" name="vorname" autocomplete="given-name" placeholder="Ihr Vorname"></div>
+          <div class="form-group"><label for="kontakt-nachname">Nachname</label><input id="kontakt-nachname" type="text" name="nachname" autocomplete="family-name" placeholder="Ihr Nachname"></div>
+        </div>
+        <div class="form-group"><label for="kontakt-weg">Telefon oder E-Mail</label><input id="kontakt-weg" type="text" name="kontakt" autocomplete="email" required placeholder="Wie können wir Sie erreichen?"></div>
+        <div class="form-group"><label for="kontakt-nachricht">Wie können wir helfen?</label><textarea id="kontakt-nachricht" name="nachricht" rows="4" placeholder="Erzählen Sie uns kurz, was Sie brauchen..."></textarea></div>
+        <div class="dsgvo"><input type="checkbox" required><span>Ich bin damit einverstanden, dass diese Daten zur Kontaktaufnahme gespeichert werden. Die Einwilligung kann jederzeit widerrufen werden.</span></div>
+        <button type="submit" class="btn-submit">Anfrage absenden</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</div><!-- /page-home -->
+
+<!-- ════════════════════════════════ KARRIERE ═══════════════════════════ -->
+<div id="page-karriere" class="page">
+<div style="padding-top:108px">
+
+<section style="background:var(--teal);padding:4rem 2.5rem 5rem">
+  <div style="max-width:1100px;margin:0 auto">
+    <div class="section-label" style="color:var(--gold)">Jetzt bewerben · NRW</div>
+    <h1 style="font-family:'Lora',serif;font-weight:600;font-size:clamp(2rem,3.5vw,3rem);color:white;line-height:1.15;max-width:600px;margin-bottom:1rem">Mach den Alltag anderer <em style="font-style:italic;color:var(--gold)">ein bisschen heller.</em></h1>
+    <p style="color:rgba(255,255,255,.75);font-size:1rem;line-height:1.75;max-width:520px;margin-bottom:2rem">Bei Lichtblick-Betreuung arbeitest du dort, wo du wirklich gebraucht wirst — mit echten Menschen, flexiblen Zeiten und einem Team, das hinter dir steht.</p>
+    <a href="#bewerbung" class="btn-main" onclick="scrollSec('#bewerbung');return false" style="background:var(--gold);box-shadow:0 4px 16px rgba(232,160,32,.4)">Jetzt bewerben</a>
+  </div>
+</section>
+
+<section class="karriere" id="karriere-main">
+  <div class="karriere-inner">
+    <div class="section-head">
+      <div class="section-label">Für verlässliche Betreuung unserer Kunden</div>
+      <h2 class="section-title">Was wir suchen &amp; was wir bieten</h2>
+    </div>
+    <div class="karriere-grid">
+      <div class="karriere-left">
+        <h3>Was Sie mitbringen sollten</h3>
+        <ul class="anforderungen">
+          <li><span class="anf-icon">✓</span>Freude am Umgang mit Menschen</li>
+          <li><span class="anf-icon">✓</span>Empathie und wertschätzende Kommunikation</li>
+          <li><span class="anf-icon">✓</span>Gutes Deutsch in Wort und Schrift</li>
+          <li><span class="anf-icon">✓</span>Selbstorganisation und eigenständige Terminplanung</li>
+          <li><span class="anf-icon">✓</span>Mobilität — idealerweise Führerschein und eigener PKW</li>
+          <li><span class="anf-icon">✓</span>Offenheit für unterschiedliche Aufgaben</li>
+        </ul>
+        <p style="font-size:.9rem;color:var(--muted);line-height:1.7">Sie kommen aus dem Pflege- oder Betreuungsbereich? Oder sind motivierter Quereinsteiger? Beides ist herzlich willkommen. Wir bilden Sie gerne weiter aus.</p>
+        <h3 style="margin-top:2rem">Was Sie von uns erwarten dürfen</h3>
+        <div class="vorteile-grid">
+          <div class="vorteil"><div class="vorteil-title">⏰ Flexible Zeiten</div><p class="vorteil-text">Keine Arbeit am Wochenende, freie Zeiteinteilung</p></div>
+          <div class="vorteil"><div class="vorteil-title">💶 Faire Bezahlung</div><p class="vorteil-text">Pünktliche, transparente Entlohnung</p></div>
+          <div class="vorteil"><div class="vorteil-title">📍 In Ihrer Nähe</div><p class="vorteil-text">Einsätze in Ihrer Region — kurze Wege</p></div>
+          <div class="vorteil"><div class="vorteil-title">🎓 Weiterentwicklung</div><p class="vorteil-text">Schulungen und Karrieremöglichkeiten</p></div>
+          <div class="vorteil"><div class="vorteil-title">👨‍👩‍👧 Familie &amp; Beruf</div><p class="vorteil-text">Gute Vereinbarkeit durch flexible Modelle</p></div>
+          <div class="vorteil"><div class="vorteil-title">🤝 Echter Rückhalt</div><p class="vorteil-text">Ein Team, das für Sie da ist</p></div>
+        </div>
+      </div>
+      <div id="bewerbung">
+        <div class="bform">
+          <h3>In 2 Minuten bewerben</h3>
+          <p class="bform-sub">Kein langes Anschreiben nötig. Wir melden uns schnell bei Ihnen.</p>
+          <form action="mailto:info@lichtblickbetreuung.de" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group"><label for="bewerbung-vorname">Vorname</label><input id="bewerbung-vorname" type="text" name="vorname" autocomplete="given-name" placeholder="Dein Vorname"></div>
+              <div class="form-group"><label for="bewerbung-nachname">Nachname</label><input id="bewerbung-nachname" type="text" name="nachname" autocomplete="family-name" placeholder="Dein Nachname"></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label for="bewerbung-telefon">Telefon</label><input id="bewerbung-telefon" type="tel" name="telefon" autocomplete="tel" placeholder="Deine Nummer"></div>
+              <div class="form-group"><label for="bewerbung-email">E-Mail</label><input id="bewerbung-email" type="email" name="email" autocomplete="email" required placeholder="deine@email.de"></div>
+            </div>
+            <div class="form-group"><label for="bewerbung-ort">Wohnort / PLZ</label><input id="bewerbung-ort" type="text" name="ort" autocomplete="postal-code" placeholder="z. B. Münster oder 48143"></div>
+            <div class="form-group">
+              <label for="bewerbung-verfuegbarkeit">Verfügbarkeit</label>
+              <select id="bewerbung-verfuegbarkeit" name="verfuegbarkeit">
+                <option value="">Bitte wählen...</option>
+                <option>Minijob (bis 603 €/Monat)</option>
+                <option>Teilzeit (10–25 Std./Woche)</option>
+                <option>Flexible Stunden je nach Auftrag</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="bewerbung-text">Kurz über dich (optional)</label><textarea id="bewerbung-text" name="uebermich" rows="3" placeholder="Was motiviert dich? Hast du Vorerfahrung?"></textarea></div>
+            <div class="dsgvo"><input type="checkbox" required><span>Ich bin damit einverstanden, dass meine Bewerbungsdaten zum Zweck der Personalauswahl gespeichert werden.</span></div>
+            <button type="submit" class="btn-submit">Bewerbung absenden 🚀</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div><!-- /page-karriere -->
+
+<!-- ════════════════════════════════ IMPRESSUM ══════════════════════════ -->
+<div id="page-impressum" class="page">
+  <div class="legal-hero"><h1>Impressum</h1></div>
+  <div class="legal-body">
+    <h2>Angaben gemäß § 5 DDG</h2>
+    <p><strong>Waqas Asjad</strong><br>Händelstraße 9<br>48308 Senden</p>
+    <h3>Vertreten durch:</h3><p>Waqas Asjad</p>
+    <h3>Kontakt:</h3>
+    <p>Telefon: <a href="tel:+491791051725">0179 1051725</a><br>E-Mail: <a href="mailto:info@lichtblickbetreuung.de">info@lichtblickbetreuung.de</a></p>
+    <h2>Verbraucherstreitbeilegung</h2>
+    <p>Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil und sind dazu auch nicht verpflichtet.</p>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ DATENSCHUTZ ════════════════════════ -->
+<div id="page-datenschutz" class="page">
+  <div class="legal-hero"><h1>Datenschutzerklärung</h1></div>
+  <div class="legal-body">
+    <h2>1. Datenschutz auf einen Blick</h2>
+    <h3>Allgemeine Hinweise</h3>
+    <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen.</p>
+    <h3>Datenerfassung auf dieser Website</h3>
+    <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber (Kontaktdaten im Impressum). Ihre Daten werden erhoben, wenn Sie uns diese mitteilen (z. B. Kontaktformular), oder automatisch beim Besuch der Website durch IT-Systeme.</p>
+    <h3>Ihre Rechte</h3>
+    <p>Sie haben jederzeit das Recht auf Auskunft, Berichtigung oder Löschung Ihrer gespeicherten personenbezogenen Daten sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen.</p>
+    <h2>2. Hosting</h2>
+    <p>Diese Website wird als statische Website über <strong>GitHub Pages</strong> bereitgestellt. Beim Aufruf verarbeitet der Hosting-Anbieter technisch erforderliche Verbindungsdaten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzhinweise von GitHub</a>.</p>
+    <h2>3. Verantwortliche Stelle</h2>
+    <p><strong>Waqas Asjad</strong><br>Händelstraße 9, 48308 Senden<br>Tel.: 0179 1051725<br>E-Mail: info@lichtblickbetreuung.de</p>
+    <h2>4. Datenerfassung auf dieser Website</h2>
+    <h3>Cookies</h3>
+    <p>Diese Website setzt derzeit keine eigenen Cookies und verwendet keine Analyse- oder Trackingdienste.</p>
+    <h3>Kontaktformular</h3>
+    <p>Beim Absenden des Kontaktformulars wird Ihr lokales E-Mail-Programm geöffnet. Auf dieser Website werden die eingegebenen Angaben nicht gespeichert. Für die anschließende E-Mail-Kommunikation gelten Art. 6 Abs. 1 lit. b und lit. f DSGVO.</p>
+    <h3>Anfrage per E-Mail oder Telefon</h3>
+    <p>Ihre Kontaktanfrage wird zum Zweck der Bearbeitung gespeichert. Rechtsgrundlage: Art. 6 Abs. 1 lit. b und lit. f DSGVO.</p>
+    <h2>5. Widerspruch gegen Werbe-E-Mails</h2>
+    <p>Der Nutzung der im Impressum veröffentlichten Kontaktdaten zur Übersendung nicht angeforderter Werbung wird hiermit widersprochen.</p>
+  </div>
+</div>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo" onclick="showPage('home')" style="cursor:pointer">
+      <svg width="36" height="36" viewBox="0 0 48 48" fill="none">
+        <line x1="24" y1="1" x2="24" y2="6" stroke="#E8A020" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="36" y1="4.5" x2="33.5" y2="8.5" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="12" y1="4.5" x2="14.5" y2="8.5" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M7 24 A17 17 0 0 1 41 24" stroke="#E8A020" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+        <path d="M9 34 Q24 44 39 34" stroke="rgba(255,255,255,.6)" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <circle cx="19" cy="23" r="4" fill="rgba(255,255,255,.8)"/>
+        <path d="M19 27 L19 36" stroke="rgba(255,255,255,.8)" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="30" cy="24" r="3.2" fill="rgba(255,255,255,.55)"/>
+        <path d="M30 27.2 L30 35" stroke="rgba(255,255,255,.55)" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <div style="line-height:1.1">
+        <div style="font-family:'Avenir Next','Segoe UI',Arial,sans-serif;font-weight:800;font-size:1rem"><span style="color:#E8A020">Licht</span><span style="color:white">blick</span></div>
+        <div style="font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)">Betreuung · NRW</div>
+      </div>
+    </div>
+    <div class="footer-copy">© <span data-year>2026</span> Lichtblick-Betreuung · Alltagshilfe in NRW</div>
+    <div class="footer-links">
+      <a href="#page-impressum" onclick="showPage('impressum')">Impressum</a>
+      <a href="#page-datenschutz" onclick="showPage('datenschutz')">Datenschutz</a>
+      <a href="#page-karriere" onclick="showPage('karriere')">Karriere</a>
+      <a href="#kontakt" onclick="showPage('home');scrollSec('#kontakt')">Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
